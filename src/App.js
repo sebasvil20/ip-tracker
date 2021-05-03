@@ -1,13 +1,8 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { Header } from "./components/Header";
 import { MapView } from "./components/MapView";
 
 function App() {
-
-
-  const [location, setLocation] = useState({})
-
-
   useEffect(() => {
     fetch('https://geo.ipify.org/service/account-balance?apiKey=at_mwJfcBhX9OvZKbEv5AQ4eHay6Ne7r&ipAddress=190.121.129.152')
     .then(response => console.log((response)))

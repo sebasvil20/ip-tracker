@@ -5,7 +5,7 @@ import 'leaflet/dist/leaflet.css'
 import { useState } from 'react'
 
 export const MapView = () => {
-  const [position, setPosition] = useState([6.247465148403925, -75.56748348672872])
+  const [position] = useState([6.247465148403925, -75.56748348672872])
 
 
   return (
